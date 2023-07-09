@@ -1,0 +1,38 @@
+<style>
+    table {
+      border-collapse: collapse;
+      width: 30%;
+    }
+  
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+
+<h3>Student Names :</h3>
+
+
+
+
+<table>
+    <thead>
+      <tr>
+        <th>   Name   </th>
+        
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let value of batches">
+        <td>{{ value.Name }}</td>
+        
+       
+      </tr>
+    </tbody>
+  </table>

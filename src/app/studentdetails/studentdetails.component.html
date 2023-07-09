@@ -1,0 +1,21 @@
+
+
+<h3>Student Details</h3>
+
+<table>
+    <thead>
+      <tr>
+        <th>   Name   </th>
+        <th>   Roll No.   </th>
+        <th>  Date of Birth  </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let value of batches">
+        <td>{{ value.Name }}</td>
+        <td>{{ value.RollNo }}</td>
+        <td>{{ value.DOB }}</td>
+      </tr>
+    </tbody>
+  </table>
+
